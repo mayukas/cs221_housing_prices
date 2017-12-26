@@ -1,0 +1,20 @@
+Key - (address, zipCode)
+#Ranges below are inclusive
+Features - {"0-107": "binary indicators for Zipcode",
+            "108": "distance from nearest subway entrace",    
+            "109-116": "binary indicator for building type",
+            "117": "latitude",
+            "118": "longitude",
+            "119": "taxYear",
+            "120": "yearBuilt",
+            "121": "propertySize",
+            "122": "homeSize",
+            "123": "lastSoldDate",
+            "124": "lastSoldPrice",
+            "125": "correctedLastSoldPrice",
+            "126": "product of 122 and 124",
+            "127": "zestimate (label)
+            }
+
+
+This ^ is the state of the data after preprocessing in training.py
